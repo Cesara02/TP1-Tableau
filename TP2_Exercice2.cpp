@@ -6,7 +6,7 @@ int main()
 	float t[3][4], m[3], moyenne = 0.0;
 	int z, y;
 
-	for (z = 0; z < 4; z++) {
+	for (z = 0; z < 3; z++) {
 		for (y = 0; y < 4; y++) {
 			scanf("%f", &t[z][y]);
 			moyenne = moyenne + t[z][y];
